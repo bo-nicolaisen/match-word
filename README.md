@@ -55,5 +55,7 @@ assets/css/               tokens.css + one file per atomic level
 
 ## Documentation
 
-- [Components](docs/components.md): every atom, molecule, organism, template and page, with props, classes, tokens and accessibility notes.
-- [Design tokens](docs/design-tokens.md): all CSS custom properties, their values, where they are used, and the rules for using them.
+The documentation lives in the [wiki](https://github.com/bo-nicolaisen/match-word/wiki):
+
+- [Components](https://github.com/bo-nicolaisen/match-word/wiki/Components): every atom, molecule, organism, template and page, with props, classes, tokens and accessibility notes.
+- [Design Tokens](https://github.com/bo-nicolaisen/match-word/wiki/Design-Tokens): all CSS custom properties, their values, where they are used, and the rules for using them.

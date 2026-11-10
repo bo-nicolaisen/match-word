@@ -1,4 +1,4 @@
-/* Design tokens – the only place raw values live. Documented in docs/design-tokens.md */
+/* Design tokens – the only place raw values live. Documented in the wiki: https://github.com/bo-nicolaisen/match-word/wiki/Design-Tokens */
 :root {
   /* Color: brand */
   --color-brand: #4f46e5;
