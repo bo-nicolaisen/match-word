@@ -1,0 +1,49 @@
+{
+  "subjects": [
+    {
+      "id": "html",
+      "name": "HTML",
+      "terms": [
+        { "id": "html-header", "term": "<header>", "explanation": "Introductory content for a page or section, often holding the logo and navigation." },
+        { "id": "html-nav", "term": "<nav>", "explanation": "Semantic element that wraps a block of navigation links." },
+        { "id": "html-main", "term": "<main>", "explanation": "The dominant, unique content of the page. Only one per page." },
+        { "id": "html-section", "term": "<section>", "explanation": "A thematic grouping of content, usually with its own heading." },
+        { "id": "html-article", "term": "<article>", "explanation": "Self-contained content that makes sense on its own, like a blog post or card." },
+        { "id": "html-aside", "term": "<aside>", "explanation": "Content indirectly related to the main content, such as a sidebar." },
+        { "id": "html-footer", "term": "<footer>", "explanation": "Closing content for a page or section: copyright, contact, links." },
+        { "id": "html-form", "term": "<form>", "explanation": "A group of input controls that submit data, e.g. a newsletter signup." },
+        { "id": "html-h1", "term": "<h1>", "explanation": "The top-level heading. Describes the main topic of the page." }
+      ]
+    },
+    {
+      "id": "css",
+      "name": "CSS",
+      "terms": [
+        { "id": "css-flexbox", "term": "Flexbox", "explanation": "One-dimensional layout model that aligns items in a row or a column." },
+        { "id": "css-grid", "term": "Grid", "explanation": "Two-dimensional layout model with rows and columns." },
+        { "id": "css-padding", "term": "Padding", "explanation": "Space between an element's content and its border." },
+        { "id": "css-margin", "term": "Margin", "explanation": "Space outside an element's border, separating it from neighbours." },
+        { "id": "css-media-query", "term": "Media query", "explanation": "Applies styles only when conditions match, e.g. screen width (responsive design)." },
+        { "id": "css-position-sticky", "term": "position: sticky", "explanation": "Element scrolls normally until it hits an offset, then sticks (e.g. a sticky header)." },
+        { "id": "css-box-shadow", "term": "box-shadow", "explanation": "Adds a shadow around an element to create depth." },
+        { "id": "css-border-radius", "term": "border-radius", "explanation": "Rounds the corners of an element." },
+        { "id": "css-hover", "term": ":hover", "explanation": "Pseudo-class that styles an element while the pointer is over it." }
+      ]
+    },
+    {
+      "id": "ux",
+      "name": "UX / UI",
+      "terms": [
+        { "id": "ux-hero", "term": "Hero section", "explanation": "The large, eye-catching area at the top of a landing page with the main message." },
+        { "id": "ux-cta", "term": "Call to action (CTA)", "explanation": "A button or link that prompts the user to take a specific action." },
+        { "id": "ux-above-fold", "term": "Above the fold", "explanation": "Content visible without scrolling." },
+        { "id": "ux-whitespace", "term": "Whitespace", "explanation": "Empty space around elements that improves readability and focus." },
+        { "id": "ux-visual-hierarchy", "term": "Visual hierarchy", "explanation": "Arranging elements by size, color and position to show their importance." },
+        { "id": "ux-social-proof", "term": "Social proof", "explanation": "Testimonials, reviews or logos that build trust." },
+        { "id": "ux-hamburger", "term": "Hamburger menu", "explanation": "A three-line icon that opens a hidden navigation menu." },
+        { "id": "ux-card", "term": "Card", "explanation": "A contained box grouping related information, often with image, title and action." },
+        { "id": "ux-breadcrumb", "term": "Breadcrumb", "explanation": "Secondary navigation showing the user's location in the site hierarchy." }
+      ]
+    }
+  ]
+}

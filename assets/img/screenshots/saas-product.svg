@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="2400" viewBox="0 0 1280 2400" font-family="Arial, sans-serif">
+  <rect width="1280" height="2400" fill="#ffffff"/>
+  <!-- sticky header -->
+  <rect width="1280" height="72" fill="#ffffff"/>
+  <line x1="0" y1="72" x2="1280" y2="72" stroke="#e5e7eb"/>
+  <rect x="48" y="22" width="28" height="28" rx="6" fill="#6366f1"/>
+  <text x="88" y="45" font-size="22" font-weight="bold" fill="#111827">Taskly</text>
+  <g font-size="16" fill="#374151"><text x="640" y="45">Features</text><text x="740" y="45">Pricing</text><text x="830" y="45">Docs</text></g>
+  <rect x="1060" y="18" width="170" height="38" rx="19" fill="#6366f1"/>
+  <text x="1090" y="43" font-size="15" fill="#fff">Start free trial</text>
+  <!-- hero -->
+  <rect y="73" width="1280" height="640" fill="#eef2ff"/>
+  <text x="640" y="250" font-size="60" font-weight="bold" fill="#111827" text-anchor="middle">Plan less. Ship more.</text>
+  <text x="640" y="310" font-size="22" fill="#4b5563" text-anchor="middle">The task manager for small teams that hate task managers.</text>
+  <rect x="470" y="350" width="160" height="54" rx="27" fill="#6366f1"/>
+  <text x="504" y="384" font-size="17" fill="#fff">Get started</text>
+  <rect x="650" y="350" width="160" height="54" rx="27" fill="#fff" stroke="#6366f1"/>
+  <text x="680" y="384" font-size="17" fill="#6366f1">Watch demo</text>
+  <rect x="240" y="450" width="800" height="230" rx="12" fill="#fff" stroke="#c7d2fe"/>
+  <rect x="270" y="480" width="220" height="170" rx="8" fill="#e0e7ff"/>
+  <rect x="520" y="480" width="220" height="170" rx="8" fill="#e0e7ff"/>
+  <rect x="770" y="480" width="240" height="170" rx="8" fill="#e0e7ff"/>
+  <!-- logos -->
+  <text x="640" y="790" font-size="16" fill="#6b7280" text-anchor="middle">Trusted by 2,000+ teams</text>
+  <g fill="#9ca3af" font-size="24" font-weight="bold"><text x="250" y="850">ACME</text><text x="460" y="850">Globex</text><text x="680" y="850">Initech</text><text x="900" y="850">Umbrella</text></g>
+  <!-- features grid -->
+  <text x="640" y="990" font-size="40" font-weight="bold" fill="#111827" text-anchor="middle">Everything you need</text>
+  <g>
+    <rect x="120" y="1040" width="320" height="240" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+    <circle cx="170" cy="1095" r="24" fill="#a5b4fc"/>
+    <text x="150" y="1170" font-size="22" font-weight="bold" fill="#111827">Boards</text>
+    <text x="150" y="1205" font-size="15" fill="#6b7280">Drag tasks between columns.</text>
+    <rect x="480" y="1040" width="320" height="240" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+    <circle cx="530" cy="1095" r="24" fill="#a5b4fc"/>
+    <text x="510" y="1170" font-size="22" font-weight="bold" fill="#111827">Timelines</text>
+    <text x="510" y="1205" font-size="15" fill="#6b7280">See deadlines at a glance.</text>
+    <rect x="840" y="1040" width="320" height="240" rx="12" fill="#f9fafb" stroke="#e5e7eb"/>
+    <circle cx="890" cy="1095" r="24" fill="#a5b4fc"/>
+    <text x="870" y="1170" font-size="22" font-weight="bold" fill="#111827">Reports</text>
+    <text x="870" y="1205" font-size="15" fill="#6b7280">Know where time goes.</text>
+  </g>
+  <!-- pricing -->
+  <rect y="1380" width="1280" height="620" fill="#f3f4f6"/>
+  <text x="640" y="1470" font-size="40" font-weight="bold" fill="#111827" text-anchor="middle">Simple pricing</text>
+  <g>
+    <rect x="260" y="1520" width="340" height="400" rx="16" fill="#fff" stroke="#e5e7eb"/>
+    <text x="300" y="1580" font-size="22" fill="#111827">Free</text>
+    <text x="300" y="1650" font-size="48" font-weight="bold" fill="#111827">€0</text>
+    <rect x="300" y="1830" width="260" height="48" rx="24" fill="#fff" stroke="#6366f1"/>
+    <text x="395" y="1861" font-size="16" fill="#6366f1">Sign up</text>
+    <rect x="680" y="1520" width="340" height="400" rx="16" fill="#6366f1"/>
+    <text x="720" y="1580" font-size="22" fill="#fff">Team</text>
+    <text x="720" y="1650" font-size="48" font-weight="bold" fill="#fff">€8</text>
+    <rect x="720" y="1830" width="260" height="48" rx="24" fill="#fff"/>
+    <text x="800" y="1861" font-size="16" fill="#6366f1">Start trial</text>
+  </g>
+  <!-- footer -->
+  <rect y="2100" width="1280" height="300" fill="#111827"/>
+  <g font-size="15" fill="#9ca3af">
+    <text x="120" y="2180" fill="#fff" font-size="18">Product</text><text x="120" y="2215">Features</text><text x="120" y="2245">Pricing</text>
+    <text x="420" y="2180" fill="#fff" font-size="18">Company</text><text x="420" y="2215">About</text><text x="420" y="2245">Careers</text>
+    <text x="120" y="2340">© 2026 Taskly Inc.</text>
+  </g>
+</svg>

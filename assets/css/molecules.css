@@ -1,0 +1,91 @@
+/* ===== Molecules ===== */
+
+/* Field (SubjectPicker, ImagePicker) */
+.m-field {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.m-field--inline {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.m-field__label {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+/* TermItem */
+.m-term-item {
+  position: relative;
+}
+
+.m-term-item__tip {
+  position: absolute;
+  left: 0;
+  top: calc(100% + var(--space-1));
+  z-index: var(--z-tooltip);
+  width: max-content;
+  max-width: calc(var(--size-sidebar) - var(--space-7));
+  padding: var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--color-text);
+  color: var(--color-surface);
+  font-size: var(--font-size-xs);
+  box-shadow: var(--shadow-md);
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity var(--duration-fast);
+  pointer-events: none;
+}
+
+.m-term-item:hover .m-term-item__tip,
+.m-term-item:focus-within .m-term-item__tip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* PasteZone */
+.m-paste-zone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3);
+  max-width: var(--size-paste-zone);
+  margin: var(--space-8) auto;
+  padding: var(--space-7);
+  border: 2px dashed var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-surface);
+  text-align: center;
+  color: var(--color-text-muted);
+}
+
+.m-paste-zone__icon {
+  width: var(--space-8);
+  height: var(--space-8);
+  color: var(--color-brand);
+}
+
+.m-paste-zone__title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.m-paste-zone__hint kbd {
+  padding: 0 var(--space-1);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-muted);
+  font-family: var(--font-family-mono);
+  font-size: var(--font-size-xs);
+}

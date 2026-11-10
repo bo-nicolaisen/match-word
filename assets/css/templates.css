@@ -1,0 +1,32 @@
+/* ===== Templates ===== */
+
+/* WorkspaceLayout */
+.t-workspace {
+  display: grid;
+  grid-template-columns: var(--size-sidebar) 1fr;
+  grid-template-rows: var(--size-toolbar) 1fr;
+  grid-template-areas:
+    "sidebar toolbar"
+    "sidebar stage";
+  height: 100%;
+}
+
+.t-workspace__sidebar {
+  grid-area: sidebar;
+  overflow-x: hidden; /* hidden tooltips must not create a horizontal scrollbar */
+  overflow-y: auto;
+  border-right: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.t-workspace__toolbar {
+  grid-area: toolbar;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+
+.t-workspace__stage {
+  grid-area: stage;
+  min-width: 0;
+  min-height: 0; /* lets the stage scroll instead of growing the grid */
+}

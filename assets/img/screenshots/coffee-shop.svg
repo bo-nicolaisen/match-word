@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="2200" viewBox="0 0 1280 2200" font-family="Georgia, serif">
+  <rect width="1280" height="2200" fill="#fbf7f2"/>
+  <!-- header / nav -->
+  <rect width="1280" height="80" fill="#3b2a20"/>
+  <text x="48" y="52" font-size="28" fill="#f5e6d3" font-weight="bold">Bean &amp; Brew</text>
+  <g font-family="Arial, sans-serif" font-size="16" fill="#f5e6d3">
+    <text x="760" y="48">Menu</text><text x="840" y="48">About</text><text x="930" y="48">Locations</text><text x="1050" y="48">Contact</text>
+  </g>
+  <!-- hero -->
+  <rect y="80" width="1280" height="620" fill="#c8a27c"/>
+  <circle cx="980" cy="390" r="200" fill="#8b5e3c"/>
+  <circle cx="980" cy="390" r="150" fill="#5a3a24"/>
+  <text x="80" y="330" font-size="64" fill="#2b1d14" font-weight="bold">Fresh coffee,</text>
+  <text x="80" y="410" font-size="64" fill="#2b1d14" font-weight="bold">roasted daily</text>
+  <text x="80" y="470" font-family="Arial, sans-serif" font-size="20" fill="#3b2a20">Small batches. Big flavour. Delivered to your door.</text>
+  <rect x="80" y="520" width="220" height="60" rx="30" fill="#3b2a20"/>
+  <text x="122" y="557" font-family="Arial, sans-serif" font-size="18" fill="#fff">Order now</text>
+  <!-- products: cards -->
+  <text x="80" y="800" font-size="40" fill="#2b1d14">Our favourites</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="80" y="850" width="340" height="420" rx="16" fill="#fff" stroke="#e6d8c8"/>
+    <rect x="80" y="850" width="340" height="220" rx="16" fill="#e8cfb3"/>
+    <text x="110" y="1120" font-size="24" fill="#2b1d14">Espresso blend</text>
+    <text x="110" y="1155" font-size="16" fill="#6b5446">Dark, chocolatey, intense.</text>
+    <text x="110" y="1220" font-size="22" fill="#8b5e3c" font-weight="bold">€12</text>
+    <rect x="470" y="850" width="340" height="420" rx="16" fill="#fff" stroke="#e6d8c8"/>
+    <rect x="470" y="850" width="340" height="220" rx="16" fill="#d9b48f"/>
+    <text x="500" y="1120" font-size="24" fill="#2b1d14">House filter</text>
+    <text x="500" y="1155" font-size="16" fill="#6b5446">Balanced and smooth.</text>
+    <text x="500" y="1220" font-size="22" fill="#8b5e3c" font-weight="bold">€10</text>
+    <rect x="860" y="850" width="340" height="420" rx="16" fill="#fff" stroke="#e6d8c8"/>
+    <rect x="860" y="850" width="340" height="220" rx="16" fill="#b98b62"/>
+    <text x="890" y="1120" font-size="24" fill="#2b1d14">Single origin</text>
+    <text x="890" y="1155" font-size="16" fill="#6b5446">Fruity notes from Ethiopia.</text>
+    <text x="890" y="1220" font-size="22" fill="#8b5e3c" font-weight="bold">€15</text>
+  </g>
+  <!-- testimonials -->
+  <rect y="1360" width="1280" height="360" fill="#efe3d6"/>
+  <text x="80" y="1440" font-size="40" fill="#2b1d14">What our customers say</text>
+  <g font-family="Arial, sans-serif" font-size="18" fill="#3b2a20">
+    <text x="80" y="1520">“The best morning ritual I've ever had.” — Anna</text>
+    <text x="80" y="1570">★★★★★</text>
+    <text x="680" y="1520">“Fast delivery and amazing taste.” — Jonas</text>
+    <text x="680" y="1570">★★★★★</text>
+  </g>
+  <!-- newsletter form -->
+  <text x="80" y="1820" font-size="32" fill="#2b1d14">Join our newsletter</text>
+  <rect x="80" y="1850" width="420" height="56" rx="8" fill="#fff" stroke="#c8a27c"/>
+  <text x="100" y="1885" font-family="Arial, sans-serif" font-size="16" fill="#9a8574">your@email.com</text>
+  <rect x="520" y="1850" width="160" height="56" rx="8" fill="#8b5e3c"/>
+  <text x="560" y="1885" font-family="Arial, sans-serif" font-size="16" fill="#fff">Subscribe</text>
+  <!-- footer -->
+  <rect y="2000" width="1280" height="200" fill="#2b1d14"/>
+  <text x="80" y="2100" font-family="Arial, sans-serif" font-size="16" fill="#c8a27c">© 2026 Bean &amp; Brew · Privacy · Terms · Instagram</text>
+</svg>
