@@ -1,6 +1,7 @@
 import { mount } from '../core/dom.js';
 import { Stage } from '../../components/organisms/Stage.js';
 import { Sticker } from '../../components/atoms/Sticker.js';
+import { renderSnapshot } from './snapshot.js';
 
 /**
  * Renders the Stage organism. The image is only replaced when its src changes;
@@ -33,6 +34,14 @@ export class StageView {
   /** The scroll container. */
   get scroller() {
     return this.slot.querySelector('.o-stage');
+  }
+
+  /**
+   * PNG of the image with its stickers, as currently shown.
+   * @returns {Promise<Blob>} rejects when no image is loaded
+   */
+  snapshot() {
+    return this.canvas ? renderSnapshot(this.canvas) : Promise.reject(new Error('No image loaded'));
   }
 
   setDropActive(active) {

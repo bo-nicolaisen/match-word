@@ -45,8 +45,19 @@
   color: var(--color-brand);
 }
 
-.o-toolbar__spacer {
+.o-toolbar__title,
+.o-toolbar .a-button {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* Takes the free space between the picker and the buttons (also acts as the spacer). */
+.o-toolbar__notice {
   flex: 1;
+  min-width: 0;
+  font-size: var(--font-size-xs);
+  line-height: var(--line-height-tight);
+  color: var(--color-danger);
 }
 
 /* Stage */

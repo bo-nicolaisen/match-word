@@ -20,7 +20,7 @@ export function PasteZone({ title = 'No screenshot yet' } = {}) {
       el('kbd', {}, 'Win'), '+', el('kbd', {}, 'Shift'), '+', el('kbd', {}, 'S'),
       ') and press ',
       el('kbd', {}, 'Ctrl'), '+', el('kbd', {}, 'V'),
-      ' here, drop an image file, or choose an example above.',
+      ' here, drop an image file, or use the Image menu above.',
     ),
   );
 }
